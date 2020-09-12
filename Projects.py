@@ -1,14 +1,4 @@
-total = 0
-while True:
-    userInput = input("Enter your item prize and press q key to get your total bill: \n")
-    if (userInput!='q'):
-        total = total + int(userInput)
-        print(f"Order total far is {total}")
-    else:
-        print(f"Your bill total is {total}. Thanks for shoping with us!")
-        break
-
-print("*******************************************")
+# ***********Library Development************
 
 class Library():
     def __init__(self, list_of_books, Library_name):
@@ -102,7 +92,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-print("*******************************************")
+# **************Basic Calculator Development************
 
 print("Select Your Operation.")
 print("+.Add")
@@ -132,7 +122,7 @@ while True:
     else:
         print("Invalid Input")
 
-print("*******************************************")
+# *******************Guess Game Development*****************
 
 n=18
 number_of_guesses=1
@@ -153,7 +143,7 @@ while (number_of_guesses<=9):
 if(number_of_guesses>9):
     print("Game Over")
 
-print("*******************************************")
+# ******************ATM Machine Development****************
 
 while True:
     balance = 10000
@@ -187,7 +177,7 @@ while True:
     if Option==4:
         exit()
 
-print("*******************************************")
+# ***************Basic Online Shop Calculator Development***************
 
 lst = list()
 total = 0
@@ -207,7 +197,7 @@ for x in lst:
     print(f"{count}. {x}")
 print("Your total bill is:", total)
 
-print("*******************************************")
+# *****************Online Health Managments System Development******************
 
 print("***Shubham Kumar Health Managments System***")
 def getdate():
@@ -303,7 +293,7 @@ while True:
         break
 print("Thank you for using Shubham Kumar Health Managments Services.")
 
-print("*******************************************")
+# ***************Random Star Pattern System Development************
 
 a = 1
 n = int(input("Enter 1 or greater for True or 0 for False> "))
@@ -316,7 +306,7 @@ for i in range(1,u+1):
         print(u*"*")
         u -= 1
 
-print("*******************************************")
+# ***************Snake Water Gun Game Development***************
 
 import random, time
 
@@ -362,7 +352,7 @@ elif cwins>uwins:
 else:
     print("This is Draw!")
 
-print("**********************")
+# ***************Alphabet Pattern Printing System Development***************
 
 def print_big(letter):
     patterns = {1:'  *  ',2:' * * ',3:'*   *',4:'*****',5:'**** ',6:'   * ',7:' *   ',8:'*   * ',9:'*    '}
